@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #060113;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: fit-content;
+    gap: 10px;
+}
+
+.nav-bar a:first-child {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.spacer {
+    width: 100%;
+    height: fit-content;
+}
+
+.nav-bar a:nth-child(3), a:nth-child(4), a:nth-child(5) {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    text-align: center;
+}
+
+.headerr {
+    width: 214px;
+    height: 296px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icon-1 {
+    font-family: 'Material Symbols Rounded';
+    font-size: 36px;
+    color: #2A30E8;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.icon-2, .icon-3, .icon-4 {
+    display: none;
+}
+
+h1 {
+    font-family: "Instrument Serif", serif;
+    font-weight: normal;
+    font-size: 60px;
+    letter-spacing: -0.03;
+    line-height: 1.2em;
+    color: aliceblue;
+}
+
+h1 em {
+    font-family: "Instrument Serif", serif;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headerr p {
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    color: #8a8a8a;
+}
+
+.headerr a {
+    background-color: #2A30E8;
+    padding: 10px 20px;
+    border-radius: 1em;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 700;
+    width: fit-content;
+    align-self: center;
+    text-decoration: none;
+}
+
+video {
+    width: 800px;
+    height: 680px;
+    border-radius: 49px;
+}
+
+.icon {
+    font-family: 'Material Symbols Rounded';
+    font-size: 36px;
+    color: #2A30E8;
+    line-height: 1.2em;
+    font-weight: 500;
+  }
+
+.icon:nth-child(2), .icon:nth-child(3), .icon:nth-child(4) {
+    display: none;
+}
